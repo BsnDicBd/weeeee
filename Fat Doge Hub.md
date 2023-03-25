@@ -20,8 +20,11 @@ local Window = Library.CreateLib("Fat Doge Hub --- Be A Noob Exploiter", "Ocean"
     end)
     MainSection:NewButton("Pet Simulator X (Key Required)", "FE", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+    end) 
+    MainSection:NewButton("Lucky Blocks BATTLEGROUNDS", "idk why i made this", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/bnuxrGix"))()
     end)
-
+   
     --LOCAL PLAYER
     local Player = Window:NewTab("Player")
     local PlayerSection = Player:NewSection("Player")
